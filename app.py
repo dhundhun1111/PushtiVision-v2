@@ -60,12 +60,76 @@ st.markdown("""
             position: absolute;
             animation: orbit 11s infinite linear;
         }
-        .loading-emoji:nth-child(1) { animation-delay: 0s; top: 50%; left: 50%; }
-        .loading-emoji:nth-child(2) { animation-delay: 1s; top: 50%; left: 50%; }
-        .loading-emoji:nth-child(3) { animation-delay: 2s; top: 50%; left: 50%; }
-        .loading-emoji:nth-child(4) { animation-delay: 3s; top: 50%; left: 50%; }
-        .loading-emoji:nth-child(5) { animation-delay: 4s; top: 50%; left: 50%; }
-        .loading-emoji:nth-child(6) { animation-delay: 5s; top: 50%; left: 50%; }
+        .loading-emoji:nth-child(1) {
+            animation-delay: 0s;
+            top: 50%;
+            left: 50%;
+        }
+        .loading-emoji:nth-child(2) {
+            animation-delay: 1s;
+            top: 50%;
+            left: 50%;
+        }
+        .loading-emoji:nth-child(3) {
+            animation-delay: 2s;
+            top: 50%;
+            left: 50%;
+        }
+        .loading-emoji:nth-child(4) {
+            animation-delay: 3s;
+            top: 50%;
+            left: 50%;
+        }
+        .loading-emoji:nth-child(5) {
+            animation-delay: 4s;
+            top: 50%;
+            left: 50%;
+        }
+        .loading-emoji:nth-child(6) {
+            animation-delay: 5s;
+            top: 50%;
+            left: 50%;
+        }
+        .loading-emoji:nth-child(7) {
+            animation-delay: 6s;
+            top: 50%;
+            left: 50%;
+        }
+        .loading-emoji:nth-child(8) {
+            animation-delay: 7s;
+            top: 50%;
+            left: 50%;
+        }
+        .loading-emoji:nth-child(9) {
+            animation-delay: 8s;
+            top: 50%;
+            left: 50%;
+        }
+        .loading-emoji:nth-child(9) {
+            animation-delay: 8s;
+            top: 50%;
+            left: 50%;
+        }
+        .loading-emoji:nth-child(9) {
+            animation-delay: 8s;
+            top: 50%;
+            left: 50%;
+        }
+        .loading-emoji:nth-child(10) {
+            animation-delay: 9s;
+            top: 50%;
+            left: 50%;
+        }
+        .loading-emoji:nth-child(11) {
+            animation-delay: 10s;
+            top: 50%;
+            left: 50%;
+        }
+        .loading-emoji:nth-child(12) {
+            animation-delay: 11s;
+            top: 50%;
+            left: 50%;
+        }
     </style>
 """, unsafe_allow_html=True)
 
@@ -263,6 +327,11 @@ def show_loading_screen():
             <span class="loading-emoji">🍔</span>
             <span class="loading-emoji">🍊</span>
             <span class="loading-emoji">🥛</span>
+            <span class="loading-emoji">🥚</span>
+            <span class="loading-emoji">🐟</span>
+            <span class="loading-emoji">🍗</span>
+            <span class="loading-emoji">🌭</span>
+            <span class="loading-emoji">🍲</span>
         </div>
         """, unsafe_allow_html=True)
     time.sleep(12)
