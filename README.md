@@ -105,6 +105,12 @@ Accurate calorie and nutrient estimation is crucial for maintaining a healthy di
 - *Packaging:*  
   - Docker is used for packaging the application, ensuring consistency across different environments.
 
+
+
+https://github.com/user-attachments/assets/867a8d12-ced4-4bbd-af1e-05ec3188fed5
+
+
+
 ---
 
 ## Environment & Dependencies
