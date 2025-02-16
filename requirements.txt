@@ -1,8 +1,10 @@
 streamlit
-opencv-python
 opencv-python-headless
 torch
 torchvision
 ultralytics
 numpy
 Pillow
+matplotlib
+pandas
+inference-sdk
