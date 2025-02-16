@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 16
+names: ['breakfast burrito', 'chicken quesadilla', 'dal_makhani', 'eggplant', 'falafel', 'guacamole', 'hummus', 'ice cream', 'indian_bread', 'nachos', 'palak paneer', 'plain_rice', 'samosa', 'spring rolls', 'tacos', 'waffles']
+
+roboflow:
+  workspace: medical-profiling
+  project: temp-xjlju
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/medical-profiling/temp-xjlju/dataset/1
